@@ -1,0 +1,31 @@
+.top-nav-sub {
+     header {
+          text-transform: uppercase;
+          font: {
+               family: $helvetica;
+               size: $base-font-size;
+          }
+          line-height: 400%;
+          color: $black;
+          span {
+               font-size: $base-font-size*1.75;
+          }
+     }
+     @include clearfix;
+}
+
+.misc-links {
+     text-align: right;
+     line-height: 350%;
+     a{
+          text-decoration: none;
+     }
+     .vert-divider {
+          font-weight: $bold;
+     }
+}
+
+.top-nav {
+     margin-top: 1%;
+     margin-bottom: 0.5%;
+}

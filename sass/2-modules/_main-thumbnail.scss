@@ -1,0 +1,86 @@
+#highlight-essay {
+     text-align: center;
+     margin-top: 5px;
+     .container-fluid{
+          display: inline-block;
+     }
+     .heading-style-2 {
+          position: relative;
+          z-index: 5;
+     }
+     .container {
+          width: 100%;
+          @include padding(0px 0px 0px 0px);
+          @include margin(-2% 0px 0px 0px);
+     }
+     .title-text {
+          display: inline-block;
+          background: white;
+          font: {
+               family: $raleway;
+               weight: 600;
+               size: $h1-scl-font-size;
+          }
+          em {
+               text-transform: uppercase;
+               font-family: $baskerville;
+          }
+          @include padding(null 30px null 30px);
+          @include margin(-5px null null null);
+     }
+}
+
+.main-thumbnail {
+     position: absolute;
+     left: 0%;
+     width: 100%;
+     height: 100%;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     max-width: 100%;
+     max-height: 100%;
+     background-image: url("http://blog.hdwallsource.com/wp-content/uploads/2016/10/karlie-kloss-model-wallpaper-background-57080-58841-hd-wallpapers.jpg");
+     text-align: center;
+     display: flex;
+     background-position: 50% 50%;
+}
+
+.main-thumbnail-text {
+     color: white;
+     text-transform: uppercase;
+     display: inline-block;
+     margin-top: -2%;
+     margin-bottom: -2%;
+     font: {
+          family: $georgia;
+          size: $heading1-font-size;
+          size: $h1-scl-font-size;
+     }
+     @include padding(-5px);
+}
+
+.main-thumbnail-design{
+     bottom: 0;
+     margin-top: auto;
+     margin-bottom: 3%;
+     display: inline-block;
+     text-align: center;
+     width: 80%;
+     .sub-text {
+          margin-top: 3%;
+          color: white;
+          text-transform: uppercase;
+          font: {
+               family: $helvetica;
+               weight: $thin;
+               size: $base-font-size*1.5;
+               size: $base-font-size-scl;
+          }
+     }
+     hr {
+          width: 100%;
+          height: 3px;
+          background-color: white;
+          @include padding(-5px);
+     }
+}

@@ -1,0 +1,32 @@
+.navbar-default {
+     background-color: tint(gray,60%);
+     width: 100%;
+     display: inline-block;
+     text-align: center;
+     @include border-top-radius(5px);
+     @include border-right-radius(5px);
+     @include border-bottom-radius(5px);
+     @include border-left-radius(5px);
+}
+
+.nav-item {
+     a {
+          font: {
+               family: $georgia;
+          }
+          font-weight: 800;
+          color: gray;
+     }
+     @include padding(10px 0px 5px 10px);
+     @include margin(-3px 0px 0px 0px);
+}
+
+.nav-pills {
+     display: inline-block;
+     justify-content: center;
+}
+
+.nav-barrier{
+     margin-left: 5%;
+     margin-right: 5%;
+}

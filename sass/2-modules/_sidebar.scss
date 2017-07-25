@@ -1,0 +1,57 @@
+#sidebar {
+     margin-top: 2%;
+     border-right: 5px dotted gray;
+}
+
+.article-preview {
+     width: 100%;
+     text-align: center;
+     margin-top: 10%;
+     img {
+          display: block;
+          width: 100%;
+          height: auto;
+     }
+}
+
+.date{
+     left: 0;
+     float: left;
+     width: 100%;
+     text-align: left;
+     span {
+          text-transform: uppercase;
+          font: {
+               family: $raleway;
+
+          }
+     }
+     @include clearfix;
+}
+
+.article-title {
+     text-align: left;
+     text-transform: uppercase;
+     font: {
+          family: $baskerville;
+          size: $h2-scl-font-size*1.15;
+          weight: $bold;
+     }
+}
+
+
+.article-preview-1 {
+     @extend .article-preview;
+}
+
+.parent-vert {
+     width: 100%;
+     height: 100%;
+     text-align: center;
+}
+
+.vert-divider {
+     border-left: 5px dotted black;
+     height: 100%;
+     display: inline-block;
+}
